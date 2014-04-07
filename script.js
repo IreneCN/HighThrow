@@ -37,3 +37,29 @@ function setNav(){              //I'm setting the button events here
 	});
 
 }
+
+function updateImage(){       //This is my function for changing the image
+	$(".image-holder").html(
+		"<img src='highthrow/"+images[index]+"'/>"    //Put in the folder name of the images i.e. highthrow
+)
+
+}
+
+
+$(document).ready(function(){   //Loads the first image in the array into our image holder
+
+	console.log("Eureka!");     //Testing that my document-ready function is working
+
+
+	$(".image-holder").html(
+		"<img src='highthrow/"+images[index]+"'/>"    
+	);
+
+	setNav();
+
+
+
+});
+
+console.log(images); //This outputs my images function
+
