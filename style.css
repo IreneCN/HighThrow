@@ -1,0 +1,41 @@
+/* This outline property puts an outline on all divs
+ This div below assigns the color solid gray to the bars around my PREVIOUS and NEXT buttons*/
+
+div{	
+	outline: 2px solid #CCCCCC; /*I'm customizing the main container that holds everything*/ 
+	} 
+
+/* This is the outermost div in my content markup*/
+#main-content{
+	width: 800px;
+	height: 400px;
+
+}
+
+/*I'm customizing my container for my previous and next buttons*/
+.button-holder{
+
+	width:400px;
+	float:left;
+	background-color:black;
+}
+
+/*I'm now adding styling features to the buttons themselves*/
+
+.button{
+
+	width: 100px;
+	padding: 10px;
+	margin: 6px;
+	border: 1px solid red;
+	float: left;
+	text-align: center;
+	color:white;
+}
+
+.image-holder{  /*This is the container for the images and I've adjusted its presentation*/
+	width: 600px;
+	height: 345px;
+	float: left;
+
+}
